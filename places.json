@@ -1,6 +1,6 @@
 [ 
-	{city: 'Vancouver', region: 'BC', country : 'Canada'},
-	{city: 'Honolulu', region: 'HI', country: 'United States'},
-	{city: 'San Diego', region: 'CA', country : 'United States' },
-	{city: 'Havana', region: 'CH', country: 'Cuba'} 
+	{"city": "Vancouver", "region": "BC", "country" : "Canada"},
+	{"city": "Honolulu", "region": "HI", "country": "United States"},
+	{"city": "San Diego", "region": "CA", "country" : "United States" },
+	{"city": "Havana", "region": "CH", "country": "Cuba"} 
 ]
