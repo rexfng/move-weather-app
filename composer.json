@@ -8,5 +8,10 @@
     ],
     "require": {
 		"ayeo/temperature": "~0.1"
+    },
+    "autoload": {
+        "classmap": [
+          "weather.php"
+        ]
     }
 }
