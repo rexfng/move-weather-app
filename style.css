@@ -1,0 +1,12 @@
+table{
+	max-width:400px;
+	margin: 100px auto 10px;
+}
+td,th{
+	width: 100px;
+	text-align: right;
+}
+a{
+	display: block;
+	text-align: center;
+}
