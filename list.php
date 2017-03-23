@@ -26,7 +26,7 @@ ini_set('display_errors', 'On');
 		$high = $weather->convert_temp($result['query']['results']['channel']['item']['forecast'][0]['high']);
 ?>
 	<tr>
-		<td><a href="view.php?c=<?php echo $city;?>"><?php echo str_replace("+", " " ,$city); ?></a></td>
+		<td><a href="view.php?c=<?php echo $city;?>&r=<?php echo $region;?>"><?php echo str_replace("+", " " ,$city); ?></a></td>
 		<td><img src="<?php echo $image;?>"></td>
 		<td><?php echo $text; ?></td>
 		<td><?php echo $high; ?></td>
