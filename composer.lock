@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e23e00c194ec34bbb522a047d278195",
+    "packages": [
+        {
+            "name": "ayeo/temperature",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ayeo/temperature.git",
+                "reference": "d04b9f4ea13938953d565b3bc42a0ac6b5c2fbe5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ayeo/temperature/zipball/d04b9f4ea13938953d565b3bc42a0ac6b5c2fbe5",
+                "reference": "d04b9f4ea13938953d565b3bc42a0ac6b5c2fbe5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Temperature\\": "src//Temperature//"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ayeo",
+                    "email": "me@ayeo.pl",
+                    "homepage": "http://ayeo.pl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple library to handle temperature scales",
+            "homepage": "https://github.com/ayeo/temperature",
+            "time": "2014-12-19T01:37:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

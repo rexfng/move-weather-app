@@ -1,0 +1,12 @@
+{
+    "name": "rex/move-weather-app",
+    "authors": [
+        {
+            "name": "Rex Fong",
+            "email": "rexfng@gmail.com"
+        }
+    ],
+    "require": {
+		"ayeo/temperature": "~0.1"
+    }
+}
